@@ -27,6 +27,8 @@ Ninguna de esas piezas transversales aparece ahí, así que no hay nada legítim
 "singletonizar" sin inventar una clase que el diagrama no pide.
 
 ## Conclusión
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/066de9f5-1549-4824-ba72-158bce911e6e" />
+
 
 Meter un Singleton a la fuerza en `Cliente`, `Credito` o `Cuota` sería el antipatrón
 clásico: "tengo el patrón, busco dónde meterlo"  exactamente al revés de cómo se debe
