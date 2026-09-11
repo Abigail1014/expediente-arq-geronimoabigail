@@ -1,0 +1,24 @@
+LSP  ANTES
+fin de mes: se calcula la mora de TODAS las cuotas vencidas 
+Cuota #1: mora = 6,00 Bs
+Cuota #2: mora = 5,00 Bs
+EXPLOTÓ en cuota #3: Una cuota condonada no calcula mora.
+El tipo dijo 'soy una Cuota' pero no se comporta como tal: LSP roto.
+
+LSP  DESPUÉS 
+fin de mes: se calcula la mora solo donde APLICA 
+Cuota #1: mora = 6,00 Bs
+Cuota #2: mora = 5,00 Bs
+Cuota #3: condonada, no genera mora
+Cero explosiones: cada tipo promete SOLO lo que cumple.
+
+ISP ANTES 
+[VENDEDOR] Registra crédito de Refrigerador por 3500,00 Bs
+EXPLOTÓ: Un vendedor no aprueba créditos.
+3 de 4 métodos del Vendedor son mentira. La interfaz gorda lo obligó.
+
+ISP DESPUÉS 
+[VENDEDOR] Registra crédito de Refrigerador por 3500,00 Bs
+[COBRANZA] Gestiona mora de cuota #101
+[GERENTE] Reporte de cartera del mes
+El error imposible: lo que el rol no puede hacer, ni siquiera compila.
